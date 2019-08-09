@@ -1,20 +1,15 @@
 # STM32F302CBTx
 
-#### 介绍
-基于STM32F302CBT6的项目代码，使用TM32CubeMX编译ST官方HAL库的进行开发
+#### Description
+project about stm32f302cbt6 applying in joystick control robot and handle data receive from pc and robot
 
+#### Software Architecture
+STM32CubeMX v5.2
+Keil5 MDK
 
-#### 编译工具
+#### Pin Description
 
-1.安装STM32CubeMX 5.2版本，打开STM32F302C8T6.ioc可以编译
-2.安装keil5编译项目代码，打开MDK-ARM\STM32F302C8T6.uvprojx编译，keil5需要安装stm32F3系列芯片包
-3.目前用20pin的J-TAG下载调试代码
-
-#### 硬件引脚说明
-
-可以用STM32CubeMX打开STM32F302C8T6.ioc查看到引脚说明
-
-1. ADC引脚 
+1. ADC
 	ADC1_IN1  PA0
 	ADC1_IN2  PA1
 	ADC1_IN3  PA2
@@ -25,7 +20,7 @@
 	ADC2_IN3  PA6
 	ADC2_IN4  PA7
 	
-2. 串口USART
+2. USART
 	USART1_TX PB3
 	USART1_RX PA15
 	
@@ -35,6 +30,6 @@
 	USART3_TX PB10
 	USART3_RX PB11
 	
-3. LED引脚
+3. LED
 	PB0
 	PB1
